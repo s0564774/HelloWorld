@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:file:~/data/goldenthreaddb
+    url: jdbc:h2:file:~/data/petition
     driverClassName: org.h2.Driver
     database-platform: org.hibernate.dialect.H2Dialect
     username: sa

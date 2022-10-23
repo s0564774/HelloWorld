@@ -28,7 +28,7 @@ public class CustomerController {
         List<Customer> listcustomer = service.listAll();
         model.addAttribute("listcustomer", listcustomer);
         System.out.print("Get / ");	
-        return "index2";
+        return "index";
     }
    
     
